@@ -1,0 +1,395 @@
+/*this is responsive css */
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .baner_slider .slick-dots {
+        left: 96%;
+
+    }
+
+    /*    this is for awosme section*/
+    .nav-pills .nav-link i {
+        font-size: 26px;
+
+        padding: 0px 3px;
+
+    }
+
+    #v-pills-tab .nav-link h2 {
+        font-size: 15px;
+    }
+
+
+    #v-pills-tab .nav-link p {
+        font-size: 10px;
+    }
+
+    /*    this is for team slider*/
+    .overlay_text h2 {
+        padding-top: 12px;
+
+    }
+
+    /*    this is for clinf section*/
+    .clint_image {
+        margin-left: 13px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+    /*this is for togole navbar*/
+    .navbar-toggler {
+        border: 2px solid #ffffff;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+    }
+
+    .navbar-toggler i {
+        font-size: 33px;
+        color: #ffffff;
+    }
+
+    /*    this is for logo*/
+    .navbar-brand img {
+        width: 130px;
+
+    }
+
+    /*    this is for navbar*/
+    .navbar-nav {
+        background: rgba(53, 53, 53, .7);
+        padding: 5px 10px;
+        margin-top: 13px;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 2px 10px;
+    }
+
+    .navbar-nav .nav-link:hover {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background: #ccc;
+        color: #fff
+    }
+
+    .nav-item a:hover:after {
+        opacity: 0;
+    }
+
+    a.menu_button {
+        padding: 5px 3px;
+        background: transparent;
+        margin: 2px 10px;
+    }
+
+    a.menu_button:hover {
+        background: #ccc;
+        color: #fff
+    }
+
+
+    /*    this is for baner*/
+    .baner_content h1 {
+        padding-top: 160px;
+        font-size: 36px;
+    }
+
+    .baner_content h2 {
+        font-size: 17px;
+        padding-bottom: 40px;
+    }
+
+    .border {
+        width: 178px;
+        top: 255px;
+        right: 17px;
+    }
+
+    .baner_content p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .baner_button {
+        margin-bottom: 70px;
+        margin-top: 40px;
+
+    }
+
+    .slick-dots li button::before {
+        top: -3px;
+        left: -2px;
+    }
+
+    /*    this is for about part*/
+    .about_text {
+        padding: 40px 0;
+    }
+
+    .about_image {
+        padding-top: 0px;
+    }
+
+    /*this is for pricing plan*/
+    .pricing_plan {
+        margin-bottom: 52px;
+    }
+
+    /*    this is awosome section*/
+    .awesom_text {
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    /*this is for clint section*/
+    .clint_image {
+        margin-left: 40%;
+    }
+
+    /*    this is contact us section*/
+    #contact .form-control {
+        margin-bottom: 30px;
+    }
+
+    #contact textarea.form-control {
+        margin-top: 0;
+    }
+
+    #contact button.btn.btn-primary {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*this is for togole navbar*/
+
+    .navbar-toggler {
+        border: 2px solid #ffffff;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+    }
+
+    .navbar-toggler i {
+        font-size: 22px;
+        color: #ffffff;
+    }
+
+    /*    this is for logo*/
+    .navbar-brand img {
+        width: 130px;
+
+    }
+
+    /*    this is for navbar*/
+    .navbar-nav {
+        background: rgba(53, 53, 53, .7);
+        padding: 5px 10px;
+        margin-top: 13px;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 2px 10px;
+    }
+
+    .navbar-nav .nav-link:hover {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background: #ccc;
+        color: #fff
+    }
+
+    .nav-item a:hover:after {
+        opacity: 0;
+    }
+
+    a.menu_button {
+        padding: 5px 3px;
+        background: transparent;
+        margin: 2px 10px;
+    }
+
+    a.menu_button:hover {
+        background: #ccc;
+        color: #fff
+    }
+
+
+    /*    this is for baner*/
+    .baner_content h1 {
+        padding-top: 160px;
+        font-size: 36px;
+    }
+
+    .baner_content h2 {
+        font-size: 17px;
+        padding-bottom: 40px;
+    }
+
+    .border {
+        width: 178px;
+        top: 255px;
+        right: 17px;
+    }
+
+    .baner_content p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 0px;
+        padding-bottom: 30
+    }
+
+    .baner_button {
+        margin-bottom: 15px;
+        margin-top: 0;
+
+    }
+
+    .button_android {
+        margin-bottom: 60px !important;
+    }
+
+    .baner_slider .slick-dots {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2%;
+    }
+
+    .baner_slider .slick-dots li {
+        display: inline-block;
+    }
+
+    .slick-dots li button::before {
+        top: -3px;
+        left: -2px;
+    }
+
+    /*    this is about section*/
+
+    .about_text {
+        padding: 40px 0;
+    }
+
+    .about_image {
+        padding-top: 0px;
+    }
+
+    /*this is nav pils section*/
+    #v-pills-tab a {
+        border-bottom: none;
+        margin-right: 0 !important;
+    }
+
+
+    .nav-pills .nav-link i {
+        font-size: 24px;
+        padding: 4px 0px;
+        margin-bottom: 16px;
+    }
+
+    #v-pills-tab .nav-link h2 {
+        display: none;
+    }
+
+    #v-pills-tab .nav-link p {
+        display: none;
+    }
+
+
+    #v-pills-tab {
+        flex-direction: row !important;
+    }
+
+    .awesom_text {
+        padding-top: 45px;
+        text-align: center;
+    }
+
+    /*this is auwose drction*/
+    .section_title {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+
+    /*    this is screen slider section*/
+    .screen_slider .slick-dots {
+        width: 100%;
+        bottom: -1%;
+    }
+
+    /*    this is pricing plan section*/
+    .pricing_plan {
+        margin: 25px 0;
+    }
+
+    /*this is team section*/
+    team_image {
+        margin-bottom: 102px !important;
+    }
+
+    .overlay_text h5 {
+        padding-bottom: 2px;
+    }
+
+    /*    this is testimunial section*/
+    .clint_image {
+        margin-left: 81px;
+        margin-bottom: 85px;
+        margin-top: 26px;
+    }
+
+    .testimunial_bg .slick-dots {
+        bottom: 28px;
+    }
+
+    /*    this is contact us section*/
+    #contact .form-control {
+        margin-bottom: 30px;
+    }
+
+    #contact textarea.form-control {
+        margin-top: 0;
+    }
+
+    #contact button.btn.btn-primary {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    /*    this is footer section*/
+    .footer_icon a i {
+        margin: 25px 0px;
+    }
+}
+
+@media (width: 480px) {
+    .clint_image {
+        margin-left: 39% !important;
+    }
+
+    .nav-pills .nav-link i {
+        font-size: 54px;
+        padding: 0px;
+
+    }
+}
