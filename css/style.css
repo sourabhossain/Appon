@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html,
@@ -22,9 +23,14 @@ body {
     background: #ffffff;
     z-index: 99999;
     position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
 }
 
 .fakeloder img {
@@ -49,7 +55,8 @@ body {
     left: 0px;
     top: 0px;
     background: #131313;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .new_menu .navbar-brand img {
@@ -64,6 +71,8 @@ body {
     font-weight: 400;
     text-transform: capitalize;
     margin: 0 10px;
+    -webkit-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
     transition: all linear 0.5s;
 }
 
@@ -76,6 +85,8 @@ body {
     width: 20px;
     background: #744fa0;
     opacity: 0;
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
     transition: all linear .5s;
 }
 
@@ -96,6 +107,8 @@ a.menu_button {
     text-decoration: none;
     margin-left: 5px;
     text-transform: capitalize;
+    -webkit-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
     transition: all ease-in-out 0.5s;
 }
 
@@ -108,6 +121,9 @@ a.menu_button:hover {
 .baner {
     position: relative;
     color: #FFFFFF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/baner.png);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/baner.png);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/baner.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/baner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,6 +133,9 @@ a.menu_button:hover {
 .baner_2 {
     position: relative;
     color: #FFFFFF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/banner2.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/banner2.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/banner2.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/banner2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,6 +145,9 @@ a.menu_button:hover {
 .baner_3 {
     position: relative;
     color: #FFFFFF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/banner3.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/banner3.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/banner3.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/banner3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,6 +219,8 @@ a.menu_button:hover {
     margin-left: 10px;
     margin-bottom: 130px;
     margin-top: 60px;
+    -webkit-transition: all ease-in-out 0.8s;
+    -o-transition: all ease-in-out 0.8s;
     transition: all ease-in-out 0.8s;
 }
 
@@ -326,6 +350,8 @@ a.menu_button:hover {
     border-radius: 0;
     border-bottom: 2px solid #000;
     margin-right: 60px;
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
     transition: all linear .5s;
 }
 
@@ -334,6 +360,8 @@ a.menu_button:hover {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 600;
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
     transition: all linear .5s;
 }
 
@@ -413,7 +441,9 @@ a.menu_button:hover {
 .screen_slider .slick-dots {
     left: 50%;
     width: auto;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     bottom: -5%;
 }
 
@@ -473,8 +503,12 @@ a.menu_button:hover {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     color: #feffff;
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
     transition: all linear .5s;
 }
 
@@ -521,7 +555,9 @@ a.menu_button:hover {
     border-radius: 50%;
     left: 50%;
     top: 36%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     font-weight: 700;
 
 
@@ -559,7 +595,9 @@ a.menu_button:hover {
     position: absolute;
     bottom: -7%;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     transition: all linear .5s;
     -webkit-transition: all linear .5s;
     -moz-transition: all linear .5s;
@@ -617,7 +655,9 @@ a.menu_button:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .overlay_icon a i {
@@ -690,7 +730,8 @@ a.menu_button:hover {
 }
 
 .team_image:hover .overlay_text {
-    transform: translateY(100%);
+    -ms-transform: translateY(100%);
+        transform: translateY(100%);
     -webkit-transform: translateY(100%);
     z-index: 1;
     opacity: 1;
@@ -781,7 +822,9 @@ a.menu_button:hover {
     border-top: 24px solid #f1f1f1;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     top: 87%;
 }
 
@@ -821,7 +864,9 @@ a.menu_button:hover {
 
 .testimunial_bg .slick-center .clint_image {
     border: 2px solid #744fa0;
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
     opacity: 1;
 }
 
@@ -934,6 +979,8 @@ a.menu_button:hover {
     cursor: pointer;
     font-size: 18px;
     border: 1px solid transparent;
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
     transition: all linear .5s;
     -wekit- transition: all linear .5s;
     -moz- transition: all linear .5s;
